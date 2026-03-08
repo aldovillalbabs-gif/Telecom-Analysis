@@ -46,19 +46,22 @@ Details of the telecom plans offered by ConnectaTel.
 
 ---
 
-# 🗂 Repository Structure
+##  🗂  Repository Structure
 
+```
 Telecom-Analysis
 │
-├── 📁 data
-│ ├── plans.csv
-│ ├── usage.csv
-│ └── users_latam.csv
+├── data
+│   ├── plans.csv
+│   ├── usage.csv
+│   └── users_latam.csv
 │
-├── 📁 notebooks
-│ └── Project-ConnectaTel.ipynb
+├── notebooks
+│   └── Project-ConnectaTel.ipynb
 │
 └── README.md
+```
+
 
 
 ---
@@ -115,9 +118,9 @@ Customers were segmented based on usage behavior.
 
 | Segment | Criteria |
 |------|------|
-| 🟢 Low Usage | Calls < 5 and Messages < 5 |
-| 🟡 Medium Usage | Calls < 10 and Messages < 10 |
-| 🔴 High Usage | All other cases |
+| 🔵 Low Usage | Calls < 5 and Messages < 5 |
+| 🟢 Medium Usage | Calls < 10 and Messages < 10 |
+| 🟣 High Usage | All other cases |
 
 Users were also segmented by age:
 
@@ -181,7 +184,7 @@ Click the **Open in Colab** button at the top of this page.
 
 # 👨‍💻 Author
 
-**Aldo Villalba**
+**Aldo Balderas**
 
 Data Analyst | Operations & Business Analytics
 
